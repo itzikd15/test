@@ -1,0 +1,29 @@
+.specialButton{
+  border-radius:  2px;
+  text-transform: none;
+  line-height:    1;
+  height:         32px;
+  padding:        6px 12px;
+  box-shadow:     0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  cursor:         pointer;
+  transition:     all 0.2s ease;
+  font-family:    Assistant, sans-serif;
+  font-weight:    700;
+  font-size:      14px;
+  }
+
+.contained {
+  color:            yellow;
+  background-color: #1A8AFF;
+  }
+
+.contained:disabled {
+  background-color: #C4C4C4;
+  color:            #EEE;
+  opacity:          0.7;
+  }
+
+.contained:hover {
+  background-color: red;
+  opacity:          0.7;
+  }
